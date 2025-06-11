@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>960.gs Typography & Layout</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nathansmith/960-Grid-System/code/css/960.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #f5f5f5;
+      padding: 1rem 0;
+    }
+    .button {
+      display: inline-block;
+      background: #0074D9;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    blockquote {
+      padding: 10px 20px;
+      margin: 1rem 0;
+      background: #eee;
+      border-left: 4px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container_12">
+    
+    <!-- Header -->
+    <header class="grid_12">
+      <h1>Welcome to 960.gs Layout</h1>
+      <p>Classic grid system for fast CSS prototyping</p>
+      <hr>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="grid_12">
+      <ul style="list-style: none; padding-left: 0;">
+        <li style="display: inline; margin-right: 15px;"><a href="#">Home</a></li>
+        <li style="display: inline; margin-right: 15px;"><a href="#">About</a></li>
+        <li style="display: inline; margin-right: 15px;"><a href="#">Services</a></li>
+        <li style="display: inline;"><a href="#">Contact</a></li>
+      </ul>
+      <hr>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="grid_8">
+      <h2>Main Content</h2>
+      <p>This layout uses <strong>8 columns</strong> out of the 12-column grid system provided by 960.gs. You can nest other grids inside or use vertical rhythm for consistency.</p>
+      
+      <h3>Typography Sample</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
+      <blockquote>
+        "The best way to get started is to quit talking and begin doing." – Walt Disney
+      </blockquote>
+      
+      <a href="#" class="button">Click Me</a>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="grid_4">
+      <h3>Sidebar</h3>
+      <p>This sidebar takes 4 of 12 columns. You can place widgets, quick links, or ads here.</p>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="grid_12" style="margin-top: 2rem;">
+      <hr>
+      <p style="text-align: center;">&copy; 2025 HardyWeb Training – 960.gs Example</p>
+    </footer>
+  </div>
+
+</body>
+</html>
+
