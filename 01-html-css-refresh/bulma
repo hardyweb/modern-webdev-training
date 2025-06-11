@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulma Refresher</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered">Bulma Refresher</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <nav class="navbar is-dark is-rounded">
+        <div class="navbar-menu is-active">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#">Home</a>
+            <a class="navbar-item" href="#">About</a>
+            <a class="navbar-item" href="#">Services</a>
+            <a class="navbar-item" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <div class="box has-background-primary has-text-white">
+            <h2 class="title is-4">Main Content</h2>
+            <p>This layout is built using Bulma’s utility-first components and grid.</p>
+            <button class="button is-light mt-3">Click Me</button>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box has-background-light">
+            <h2 class="title is-5">Sidebar</h2>
+            <p>Use this section for extra links or info.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>&copy; 2025 HardyWeb Training</p>
+    </div>
+  </footer>
+</body>
+</html>
