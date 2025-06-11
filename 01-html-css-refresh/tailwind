@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Refresher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+  <header class="bg-gray-100 py-4">
+    <h1 class="text-center text-2xl font-bold">Tailwind CSS Refresher</h1>
+  </header>
+
+  <div class="max-w-screen-md mx-auto p-4">
+    <nav class="my-4">
+      <ul class="flex justify-around bg-gray-800 text-white py-2 rounded">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">About</a></li>
+        <li><a href="#" class="hover:underline">Services</a></li>
+        <li><a href="#" class="hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="md:col-span-2 bg-blue-100 p-4 rounded">
+        <h2 class="text-xl font-semibold mb-2">Main Content</h2>
+        <p>This layout is rebuilt using Tailwind CSS classes with responsive design in mind.</p>
+        <a href="#" class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Click Me</a>
+      </div>
+      <div class="bg-gray-200 p-4 rounded">
+        <h2 class="text-lg font-semibold mb-2">Sidebar</h2>
+        <p>Use this space for additional info or links.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-gray-100 text-center py-4 mt-6">
+    <p class="text-sm">&copy; 2025 HardyWeb Training</p>
+  </footer>
+</body>
+</html>
