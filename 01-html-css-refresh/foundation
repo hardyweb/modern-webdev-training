@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation Refresher</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css">
+</head>
+<body>
+  <header class="grid-container">
+    <div class="grid-x grid-padding-x align-center">
+      <div class="cell small-12 text-center">
+        <h1>Foundation Refresher</h1>
+      </div>
+    </div>
+  </header>
+
+  <nav class="top-bar" id="main-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="grid-container">
+    <div class="grid-x grid-margin-x">
+      <div class="cell medium-8">
+        <div class="callout primary">
+          <h2>Main Content</h2>
+          <p>This Foundation layout demonstrates the grid and utility classes.</p>
+          <a class="button secondary" href="#">Click Me</a>
+        </div>
+      </div>
+      <div class="cell medium-4">
+        <div class="callout warning">
+          <h3>Sidebar</h3>
+          <p>Put additional info or quick links here.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="grid-container text-center">
+    <p>&copy; 2025 HardyWeb Training</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js"></script>
+</body>
+</html>
