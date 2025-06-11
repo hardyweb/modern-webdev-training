@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind Typography & Layout</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Container -->
+  <div class="max-w-6xl mx-auto px-4 py-8">
+
+    <!-- Header -->
+    <header class="text-center mb-6">
+      <h1 class="text-3xl font-bold">Welcome to Tailwind Layout</h1>
+      <p class="text-lg text-gray-600">Utility-first, responsive design</p>
+      <div class="border-t border-gray-300 my-4"></div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="mb-6">
+      <ul class="flex justify-center gap-6 text-blue-600 font-medium">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">About</a></li>
+        <li><a href="#" class="hover:underline">Services</a></li>
+        <li><a href="#" class="hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main + Sidebar Grid -->
+    <div class="grid md:grid-cols-12 gap-6">
+
+      <!-- Main Content (8 columns) -->
+      <main class="md:col-span-8">
+        <h2 class="text-2xl font-semibold mb-2">Main Content</h2>
+        <p class="mb-4">This layout uses <strong>8 of 12 columns</strong> using Tailwind's responsive grid system. You have full control with classes.</p>
+        
+        <h3 class="text-xl font-medium mt-4 mb-2">Typography Sample</h3>
+        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.</p>
+        
+        <blockquote class="border-l-4 border-blue-500 pl-4 italic text-gray-700 mb-4">
+          "The best way to get started is to quit talking and begin doing." – Walt Disney
+        </blockquote>
+
+        <a href="#" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">Click Me</a>
+      </main>
+
+      <!-- Sidebar (4 columns) -->
+      <aside class="md:col-span-4">
+        <h3 class="text-xl font-medium mb-2">Sidebar</h3>
+        <p>Use this space for quick links, info cards, or recent updates. It's flexible and mobile-friendly.</p>
+      </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-10 text-sm text-gray-500">
+      <hr class="my-4">
+      &copy; 2025 HardyWeb Training – Tailwind Example
+    </footer>
+
+  </div>
+</body>
+</html>
